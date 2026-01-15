@@ -15,7 +15,7 @@ function initializeFirebase() {
   // Prevent double initialization
   if (app) return { db, storage, auth };
 
-  // These will be replaced by Next.js at build time with your .env.local values
+  
   const firebaseConfig = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
