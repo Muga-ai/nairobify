@@ -1,0 +1,68 @@
+import {
+  Users,
+  Banknote,
+  TrafficCone,
+  ShieldAlert,
+  Landmark,
+  CloudRain,
+  AlertTriangle,
+} from "lucide-react";
+
+export const cityIntelData = [
+  {
+    id: "population",
+    label: "Population",
+    value: "4.6M",
+    hint: "Nairobi Metro",
+    icon: Users,
+    accent: "text-blue-600",
+  },
+  {
+    id: "economy",
+    label: "Avg Rent",
+    value: "KES 21,000",
+    hint: "1-bed city avg",
+    icon: Banknote,
+    accent: "text-emerald-600",
+  },
+  {
+    id: "traffic",
+    label: "Traffic",
+    value: "Heavy",
+    hint: "Peak hours",
+    icon: TrafficCone,
+    accent: "text-orange-600",
+  },
+  {
+    id: "security",
+    label: "Security",
+    value: "Moderate",
+    hint: "Last 30 days",
+    icon: ShieldAlert,
+    accent: "text-red-600",
+  },
+  {
+    id: "leadership",
+    label: "Governor",
+    value: "Johnson Sakaja",
+    hint: "Nairobi County",
+    icon: Landmark,
+    accent: "text-indigo-600",
+  },
+  {
+    id: "weather",
+    label: "Weather",
+    value: "24°C",
+    hint: "Light rain risk",
+    icon: CloudRain,
+    accent: "text-cyan-600",
+  },
+  {
+    id: "civic",
+    label: "Civic Issues",
+    value: "Live",
+    hint: "Real-time reporting",
+    icon: AlertTriangle,
+    accent: "text-yellow-600",
+  },
+];
